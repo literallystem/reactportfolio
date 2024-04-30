@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.e001fb75.css",
+    "main.js": "/reactportfolio/static/js/main.26e9c227.js",
+    "static/js/453.1b6cbde4.chunk.js": "/reactportfolio/static/js/453.1b6cbde4.chunk.js",
+    "static/media/VintageMohai-DemoVersion-Regular.ttf": "/reactportfolio/static/media/VintageMohai-DemoVersion-Regular.473900604b79969be53d.ttf",
+    "index.html": "/reactportfolio/index.html",
+    "main.e001fb75.css.map": "/reactportfolio/static/css/main.e001fb75.css.map",
+    "main.26e9c227.js.map": "/reactportfolio/static/js/main.26e9c227.js.map",
+    "453.1b6cbde4.chunk.js.map": "/reactportfolio/static/js/453.1b6cbde4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e001fb75.css",
+    "static/js/main.26e9c227.js"
+  ]
+}

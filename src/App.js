@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{
+      width: '100vw',
+      height: '100vh',
+      background: 'linear-gradient(45deg, #ccfbff, #ffffff, #ef96c5)',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontFamily: 'VM'
+    }}>
+      <h1 style={{ 
+        fontSize: '10rem', 
+        color: '#000', 
+        animation: 'pulse 2s ease infinite',
+        }}>
+        This is<br />&nbsp;&nbsp;Arsh's Portfolio
+      </h1>
+      <style>
+        {`
+          @keyframes pulse {
+            0% {
+              transform: scale(1);
+            }
+            50% {
+              transform: scale(1.1);
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+        `}
+      </style>
     </div>
   );
 }
